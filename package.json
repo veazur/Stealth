@@ -1,6 +1,27 @@
 {
+  "name": "stealth",
+  "version": "0.0.1",
+  "description": "An AI chatbot that uses groq api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veazur/Stealth.git"
+  },
+  "keywords": [
+    "ai"
+  ],
+  "author": "playstation451",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/veazur/Stealth/issues"
+  },
+  "homepage": "https://github.com/veazur/Stealth#readme",
   "dependencies": {
     "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
     "express": "^4.21.1"
   }
 }
